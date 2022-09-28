@@ -6,9 +6,9 @@ import java.io.FileReader;
 
 public class reader {
 
-	static String LocatieChatLog = "C:\\Users\\test.txt";
-	static String LocatieHistoryLog =  "C:\\Users\\history.txt"  ;
-	static String LocatieEmojis = "C:\\Users\\emoji.txt";
+	static String LocatieChatLog = "C:\\Users\\chat.txt"; // txt file met een kopie van de discord chatlog
+	static String LocatieHistoryLog =  "C:\\Users\\history.txt"  ; // txt file met voorgaande discord chatlogs
+	static String LocatieEmojis = "C:\\Users\\emoji.txt"; // txt file met de emoji's die geteld moeten worden met hun punten en commando
 	
 	
 	public static void main(String[] args) throws Exception {
